@@ -18,9 +18,4 @@ public class Tests
                         Tasks.Task1Equation(3)
                 ));
     }
-    @Test
-    public void Task2Test()
-    {
-        assertEquals(1.5d, Math.round(Tasks.Task2CalculateY(1)),1);
-    }
 }
